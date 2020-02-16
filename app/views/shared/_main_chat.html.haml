@@ -5,8 +5,8 @@
       .chat-main__header__group-info__members-list
         %ul.chat-main__header__group-info__members-list__index Member :
         .li.chat-main__header__group-info__members-list__members isaki
-    %a{:href => "#"} 
-      .chat-main__header__edit-btn Edit
+    = link_to "#", class: "chat-main__header__edit-btn" do
+      %ul Edit
   .chat-main__messages
     .chat-main__messages__messages-box
       .chat-main__messages__messages-box__list
@@ -23,8 +23,8 @@
   
   %form.chat-main__message-form
     .chat-main__message-form__input-box
-      %input.chat-main__message-form__input-box__text{:name => "message[content]", :placeholder => "メッセージを入力しても良いよ", :type => "text"}/
-      %label.chat-main__message-form__input-box__image{:for => "message-image"} 
+      %input.chat-main__message-form__input-box__text{name: "message[content]", placeholder: "メッセージを入力しても良いよ", type: "text"}/
+      %label.chat-main__message-form__input-box__image{for: "message-image"} 
         %i.fa.fa-image
-        %input#message-image.chat-main__message-form__input-box__image__file{:name => "message[image]", :type => "file"}/
+        %input#message-image.chat-main__message-form__input-box__image__file{name: "message[image]", type: "file"}/
     .chat-main__message-form__submit-btn Send
