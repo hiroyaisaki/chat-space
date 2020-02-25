@@ -1,0 +1,21 @@
+.side-bar
+  .side-bar__header
+    .side-box
+      %p.side-box__user-name
+        = current_user.name 
+      %ul.side-box__menu
+        = link_to new_group_path, class: "side-box__menu__new-group" do
+          %i.fa.fa-edit
+        = link_to edit_user_path(current_user), class: "side-box__menu__edit-user" do
+          %i.fa.fa-cog
+  
+  .side-bar__groups
+    - current_user.groups.each do |group|
+      .side-bar__groups__group
+        = link_to '#' do
+          .side-bar__groups__group__group-name
+            = group.name
+          .side-bar__groups__group__group-message 
+            まだメッセージはありません
+    
+    

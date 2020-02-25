@@ -4,7 +4,7 @@
 |------|----|-------|
 |name|string|null: false, unique: true|
 |email|string|null: false, unique: true|
-|password|string|nill:false, |
+|password|string|null:false|
 
 ### Assosiation
 - has_many :messages
