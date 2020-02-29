@@ -142,36 +142,38 @@ $message-color:#333333;
     background-color: #d2d2d2;
     height: 90px;
     padding: 20px 40px;
-    align-items: center;
-    display: flex;
-    &__input-box {
-      width: 100%;
-      position: relative;
-      &__text {
-        height: 50px;
+    // align-items: center;
+    &__two-boxes {
+      display: flex;
+      &__input-box {
         width: 100%;
-        padding: 0 40px 0 10px;
-        border-style: none;
-      }
-      &__image {
-        font-size: 1.3rem;
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        input {
-          display: none;
+        position: relative;
+        &__text {
+          height: 50px;
+          width: 100%;
+          padding: 0 40px 0 10px;
+          border-style: none;
+        }
+        .label-image {
+          font-size: 1.3rem;
+          position: absolute;
+          top: 10px;
+          right: 10px;
+          input {
+            display: none;
+          }
         }
       }
-    }
-    &__submit-btn {
-      background-color: #38aef0;
-      height: 50px;
-      width: 100px;
-      padding: 0 30px;
-      margin-left: 15px;
-      color: white;
-      line-height: 50px;
-      cursor: pointer;
+      .submit {
+        background-color: #38aef0;
+        height: 50px;
+        width: 100px;
+        padding: 0 30px;
+        margin-left: 15px;
+        color: white;
+        line-height: 50px;
+        cursor: pointer;
+      }
     }
   }
 }
