@@ -70,9 +70,6 @@ $message-color:#333333;
   background-color: #ffffff;
   height: 100vh;
   width: calc(100vw - 300px);
-  // position: relative;
-  // padding-bottom: 90px;
-  // box-sizing: border-box;
   &__header {
     height: 100px;
     border-color: #eeeeee;
@@ -141,8 +138,6 @@ $message-color:#333333;
     background-color: #d2d2d2;
     height: 90px;
     padding: 20px 40px;
-    // position: absolute;
-    // bottom: 0;
     &__two-boxes {
       display: flex;
       &__input-box {
