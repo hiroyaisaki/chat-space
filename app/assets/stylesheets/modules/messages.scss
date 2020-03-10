@@ -72,7 +72,7 @@ $message-color:#333333;
   width: calc(100vw - 300px);
   &__header {
     height: 100px;
-    border-color: #eeeeee;
+    border-bottom: solid 1px #eee;
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -119,8 +119,9 @@ $message-color:#333333;
         display: flex;
         padding-bottom: 12px;
         &__messanger-name {
-          color: $message-color;
+          color: #434a54;
           font-size: 16px;
+          font-weight: bold;
         }
         &__message-date {
           color: #999999;
