@@ -47,6 +47,7 @@ $message-color:#333333;
   &__groups {
     background-color: #2f3e51;
     height: calc(100% - 100px);
+    overflow: scroll;
     &__group {
       height: 65px;
       width: 100%;
