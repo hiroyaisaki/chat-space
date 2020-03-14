@@ -51,6 +51,7 @@ $message-color:#333333;
     &__group {
       height: 65px;
       width: 100%;
+      margin-bottom: 40px;
       &__group-name {
         font-size: 15px;
         padding: 20px 20px 5px 20px;
@@ -59,7 +60,7 @@ $message-color:#333333;
       }
       &__group-message {
         font-size: 11px;
-        padding: 0px 20px 40px;
+        padding: 0px 20px;
         color: $group-color;
         text-decoration: none;
       }
