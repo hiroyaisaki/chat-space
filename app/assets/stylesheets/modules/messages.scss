@@ -51,16 +51,17 @@ $message-color:#333333;
       height: 65px;
       width: 100%;
       margin-bottom: 40px;
-      display: none;
       &__group-name {
         font-size: 15px;
         padding: 20px 20px 5px 20px;
         color: $group-color;
+        text-decoration: none;
       }
       &__group-message {
         font-size: 11px;
         padding: 0px 20px;
         color: $group-color;
+        text-decoration: none;
       }
     }
   }
